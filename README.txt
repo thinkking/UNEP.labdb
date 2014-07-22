@@ -1,6 +1,3 @@
 Introduction
 ============
-
-
-
-This product may contain traces of nuts.
+This provides a lab content type and a search interface for locating labs
