@@ -1,0 +1,17 @@
+unep.labdb Installation
+-----------------------
+
+To install unep.labdb using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``unep.labdb`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        unep.labdb
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout

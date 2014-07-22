@@ -1,0 +1,14 @@
+*.pyc
+*.mo
+*.egg
+/.installed.cfg
+UNEP.labdb.egg-info
+/bin/
+/develop-eggs/
+/include/
+/lib/
+/nixenv
+/parts/
+/var/
+/.mr.developer.cfg
+/src/plone.app.widgets
