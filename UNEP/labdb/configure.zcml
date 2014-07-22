@@ -26,9 +26,9 @@
        in Plone -->
   <genericsetup:registerProfile
       name="default"
-      title="UNEP Lab DB"
+      title="UNEP lab DB"
       directory="profiles/default"
-      description="Extension profile for UNEP Lab DB"
+      description="Extension profile for UNEP lab DB"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

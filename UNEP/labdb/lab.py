@@ -19,9 +19,9 @@ from UNEP.labdb import MessageFactory as _
 
 # Interface class; used to define content-type schema.
 
-class Ilab(form.Schema, IImageScaleTraversable):
+class ILab(form.Schema, IImageScaleTraversable):
     """
-    A Lab
+    Lab Profile
     """
 
     # If you want a schema-defined interface, delete the model.load
@@ -37,8 +37,8 @@ class Ilab(form.Schema, IImageScaleTraversable):
 # methods and properties. Put methods that are mainly useful for rendering
 # in separate view classes.
 
-class lab(Container):
-    grok.implements(Ilab)
+class Lab(Container):
+    grok.implements(ILab)
 
     # Add your class methods and properties here
 
@@ -56,7 +56,7 @@ class lab(Container):
 class SampleView(grok.View):
     """ sample view class """
 
-    grok.context(Ilab)
+    grok.context(ILab)
     grok.require('zope2.View')
 
     # grok.name('view')

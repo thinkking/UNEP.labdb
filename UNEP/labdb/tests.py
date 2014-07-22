@@ -52,9 +52,9 @@ def test_suite():
 
         # -*- extra stuff goes here -*-
 
-        # Integration tests for lab
+        # Integration tests for Lab
         ztc.ZopeDocFileSuite(
-            'lab.txt',
+            'Lab.txt',
             package='UNEP.labdb',
             optionflags = OPTION_FLAGS,
             test_class=TestCase),
