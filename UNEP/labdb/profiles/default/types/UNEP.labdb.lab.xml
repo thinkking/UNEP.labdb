@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
-<object name="unep.labdb.lab"
+<object name="UNEP.labdb.lab"
    meta_type="Dexterity FTI"
    i18n:domain="UNEP.labdb" xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
   <!-- Basic metadata -->
-  <property name="title" i18n:translate="">lab</property>
+  <property name="title" i18n:translate="">Lab</property>
   <property name="description"
-    i18n:translate="">A Lab</property>
+    i18n:translate="">Lab Profile</property>
   <property name="icon_expr">string:${portal_url}/document_icon.png</property>
-  <property name="factory">unep.labdb.lab</property>
+  <property name="factory">UNEP.labdb.lab</property>
   <property name="global_allow">True</property>
   <property name="filter_content_types">True</property>
   <property name="allowed_content_types" />
   <property name="allow_discussion">False</property>
 
   <!-- schema and class used for content items -->
-  <property name="schema">unep.labdb.lab.Ilab</property>
-  <property name="klass">unep.labdb.lab.lab</property>
+  <property name="schema">UNEP.labdb.lab.ILab</property>
+  <property name="klass">UNEP.labdb.lab.Lab</property>
 
   <property name="behaviors">
      <element value="plone.app.content.interfaces.INameFromTitle" />
