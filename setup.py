@@ -29,6 +29,7 @@ setup(name='UNEP.labdb',
           'plone.app.dexterity [grok]',
           'plone.namedfile [blobs]',
           'collective.geo.bundle',
+          'collective.formcriteria',
           'collective.z3cform.datagridfield',
           # -*- Extra requirements: -*-
       ],
